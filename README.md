@@ -1,5 +1,5 @@
 # Exercise-4
-Proyek ini bertujuan untuk mengontrol beberapa LED menggunakan mikrokontroler STM32 dengan FreeRTOS. Proyek ini memanfaatkan FreeRTOS untuk mengontrol empat LED (Biru, Hijau, Merah, dan Kuning) yang terhubung ke STM32. Dua task utama diimplementasikan:
+Proyek ini bertujuan untuk mengontrol beberapa LED menggunakan mikrokontroler STM32 dengan FreeRTOS. Proyek ini memanfaatkan FreeRTOS untuk mengontrol empat LED (Biru, Hijau, Merah, dan Kuning) yang terhubung ke STM32. Dua task utama diimplementasikan yaitu FlashGreenLedTask dan FlashRedLedTask.
 
 # Cara Kerja 
 1. Task FlashGreenLedTask mengontrol LED biru dan hijau dengan pola seperti berikut. 
