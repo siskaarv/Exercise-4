@@ -12,3 +12,9 @@ Pada proyek ini, FlashRedLedTask memiliki prioritas lebih tinggi dibandingkan de
 
 
 ## Hardware 
+
+## Output Proyek
+- LED Merah akan menyala dan mati dengan cepat setiap 100 milidetik.
+- LED Hijau akan menyala dan mati lebih lambat setiap 500 milidetik.
+- LED Biru akan menyala selama 500 milidetik ketika AccessSharedData diakses oleh task dan startFlag bernilai 0. LED Biru akan menyala hanya ketika startFlag bernilai 0, yang terjadi saat pertama kali akses dilakukan setelah sebelumnya startFlag diatur menjadi 1. 
+- Karena FlashRedLedTask memiliki prioritas lebih tinggi, kemungkinan LED Merah akan lebih sering terlihat aktif dibandingkan dengan LED Hijau, terutama ketika terjadi konten bersamaan.
