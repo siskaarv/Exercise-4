@@ -12,6 +12,9 @@ Pada proyek ini, FlashRedLedTask memiliki prioritas lebih tinggi dibandingkan de
 
 
 ## Hardware 
+![RTOS_Exercise 4](https://github.com/user-attachments/assets/cc0972f9-3e15-4d39-934e-4ac2baa23c8f)
+![RTOS_Exercise 4](https://github.com/user-attachments/assets/42af9804-6cf5-48b5-8f6d-160158208b5f)
+
 
 ## Output Proyek
 - LED Merah akan menyala dan mati dengan cepat setiap 100 milidetik.
